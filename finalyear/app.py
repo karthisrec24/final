@@ -26,8 +26,7 @@ st.write("Upload a **PDF, DOCX, or PPTX** and ask questions based on its content
 # Model selection
 model_options = {
     "Mistral 7B": "mistralai/Mistral-7B-Instruct-v0.3",
-    "Zephyr 7B": "HuggingFaceH4/zephyr-7b-beta",
-    "Falcon 7B": "tiiuae/falcon-7b-instruct"
+    "Zephyr 7B": "HuggingFaceH4/zephyr-7b-beta"
 }
 selected_model_name = st.sidebar.selectbox("🧠 Select Model", list(model_options.keys()))
 selected_model = model_options[selected_model_name]
