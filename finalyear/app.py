@@ -20,7 +20,7 @@ from reportlab.pdfgen import canvas
 import tempfile
 
 # Streamlit UI
-st.title("📖PERSONALISED TUTOR")
+st.title("📖PERSONALIZED TUTOR")
 st.write("Upload a **PDF, DOCX, or PPTX** and ask questions based on its content!")
 
 # Model selection
